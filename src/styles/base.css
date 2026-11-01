@@ -374,6 +374,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
 }
